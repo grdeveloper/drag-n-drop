@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8"/>
+    <title>Drag &amp; Drop</title>
+    <meta name="author" content="Grisha Petrosyan">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.css">
+    <style>
+        #sort1 .column{
+            transition: 0.3s;
+        }
+        .is-dragged{
+            opacity: 0.5;
+            z-index: 9000;
+        }
+        #sort1{
+            position: relative;
+        }
+        .masthead.segment {
+            padding: 2em 0em; }
+        .masthead .logo.item img {
+            margin-right: 1em; }
+        .masthead .ui.menu .ui.button {
+            margin-left: 0.5em; }
+        .masthead h1.ui.header {
+            padding-top: 1em;
+            margin-bottom: 0em;
+            font-size: 4em;
+            font-weight: normal; }
+        .masthead h2 {
+            font-size: 1.7em;
+            font-weight: normal;
+            padding-bottom: 2em;
+        }
+    </style>
+</head>
+<body>
+<div class="ui inverted vertical masthead center aligned segment">
+    <div class="ui container">
+    </div>
+    <div class="ui text container">
+        <h1 class="ui inverted header">Reorganization</h1>
+        <h2>Drag &amp; Drop</h2>
+    </div>
+</div>
+
+<p>&nbsp;</p>
+
+<div class="ui container">
+    <div id="sort1" data-sortable=".column" class="ui stackable three column grid relative">
+        <div class="column" data-position='0' data-id='1'>
+            <div class="ui fluid card">
+                <div class="content"><img src="images/home-74.png" class="right floated mini ui image">
+                    <div class="header">Your dream</div>
+                    <div class="meta">House of your dream</div>
+                    <div class="description">Elliot requested permission to view your contact details</div>
+                </div>
+            </div>
+        </div>
+        <div class="column" data-position='1' data-id='2'>
+            <div class="ui fluid card">
+                <div class="content"><img src="images/home-74.png" class="right floated mini ui image">
+                    <div class="header">Your dream</div>
+                    <div class="meta">House of your dream</div>
+                    <div class="description">Elliot requested permission to view your contact details</div>
+                </div>
+            </div>
+        </div>
+        <div class="column" data-position='2' data-id='3'>
+            <div class="ui fluid card">
+                <div class="content"><img src="images/home-74.png" class="right floated mini ui image">
+                    <div class="header">Your dream</div>
+                    <div class="meta">House of your dream</div>
+                    <div class="description">Elliot requested permission to view your contact details</div>
+                </div>
+            </div>
+        </div>
+        <div class="column" data-position='3' data-id='4'>
+            <div class="ui fluid card">
+                <div class="content"><img src="images/home-74.png" class="right floated mini ui image">
+                    <div class="header">Your dream</div>
+                    <div class="meta">House of your dream</div>
+                    <div class="description">Elliot requested permission to view your contact details</div>
+                </div>
+            </div>
+        </div>
+        <div class="column" data-position='4' data-id='5'>
+            <div class="ui fluid card">
+                <div class="content"><img src="images/home-74.png" class="right floated mini ui image">
+                    <div class="header">Your dream</div>
+                    <div class="meta">House of your dream</div>
+                    <div class="description">Elliot requested permission to view your contact details</div>
+                </div>
+            </div>
+        </div>
+        <div class="column" data-position='5' data-id='6'>
+            <div class="ui fluid card">
+                <div class="content"><img src="images/home-74.png" class="right floated mini ui image">
+                    <div class="header">Your dream</div>
+                    <div class="meta">House of your dream</div>
+                    <div class="description">Elliot requested permission to view your contact details</div>
+                </div>
+            </div>
+        </div>
+        <div class="column" data-position='6' data-id='7'>
+            <div class="ui fluid card">
+                <div class="content"><img src="images/home-74.png" class="right floated mini ui image">
+                    <div class="header">Your dream</div>
+                    <div class="meta">House of your dream</div>
+                    <div class="description">Elliot requested permission to view your contact details</div>
+                </div>
+            </div>
+        </div>
+        <div class="column" data-position='7' data-id='8'>
+            <div class="ui fluid card">
+                <div class="content"><img src="images/home-74.png" class="right floated mini ui image">
+                    <div class="header">Your dream</div>
+                    <div class="meta">House of your dream</div>
+                    <div class="description">Elliot requested permission to view your contact details</div>
+                </div>
+            </div>
+        </div>
+        <div class="column" data-position='8' data-id='9'>
+            <div class="ui fluid card">
+                <div class="content"><img src="images/home-74.png" class="right floated mini ui image">
+                    <div class="header">Your dream</div>
+                    <div class="meta">House of your dream</div>
+                    <div class="description">Elliot requested permission to view your contact details</div>
+                </div>
+            </div>
+        </div>
+        <div class="column" data-position='9' data-id='10'>
+            <div class="ui fluid card">
+                <div class="content"><img src="images/home-74.png" class="right floated mini ui image">
+                    <div class="header">Your dream</div>
+                    <div class="meta">House of your dream</div>
+                    <div class="description">Elliot requested permission to view your contact details</div>
+                </div>
+            </div>
+        </div>
+        <div class="column" data-position='10' data-id='11'>
+            <div class="ui fluid card">
+                <div class="content"><img src="images/home-74.png" class="right floated mini ui image">
+                    <div class="header">Your dream</div>
+                    <div class="meta">House of your dream</div>
+                    <div class="description">Elliot requested permission to view your contact details</div>
+                </div>
+            </div>
+        </div>
+        <div class="column" data-position='11' data-id='12'>
+            <div class="ui fluid card">
+                <div class="content"><img src="images/home-74.png" class="right floated mini ui image">
+                    <div class="header">Your dream</div>
+                    <div class="meta">House of your dream</div>
+                    <div class="description">Elliot requested permission to view your contact details</div>
+                </div>
+            </div>
+        </div>
+        <div class="column" data-position='12' data-id='13'>
+            <div class="ui fluid card">
+                <div class="content"><img src="images/home-74.png" class="right floated mini ui image">
+                    <div class="header">Your dream</div>
+                    <div class="meta">House of your dream</div>
+                    <div class="description">Elliot requested permission to view your contact details</div>
+                </div>
+            </div>
+        </div>
+        <div class="column" data-position='13' data-id='14'>
+            <div class="ui fluid card">
+                <div class="content"><img src="images/home-74.png" class="right floated mini ui image">
+                    <div class="header">Your dream</div>
+                    <div class="meta">House of your dream</div>
+                    <div class="description">Elliot requested permission to view your contact details</div>
+                </div>
+            </div>
+        </div>
+        <div class="column" data-position='14' data-id='15'>
+            <div class="ui fluid card">
+                <div class="content"><img src="images/home-74.png" class="right floated mini ui image">
+                    <div class="header">Your dream</div>
+                    <div class="meta">House of your dream</div>
+                    <div class="description">Elliot requested permission to view your contact details</div>
+                </div>
+            </div>
+        </div>
+        <div class="column" data-position='15' data-id='16'>
+            <div class="ui fluid card">
+                <div class="content"><img src="images/home-74.png" class="right floated mini ui image">
+                    <div class="header">Your dream</div>
+                    <div class="meta">House of your dream</div>
+                    <div class="description">Elliot requested permission to view your contact details</div>
+                </div>
+            </div>
+        </div>
+        <div class="column" data-position='16' data-id='17'>
+            <div class="ui fluid card">
+                <div class="content"><img src="images/home-74.png" class="right floated mini ui image">
+                    <div class="header">Your dream</div>
+                    <div class="meta">House of your dream</div>
+                    <div class="description">Elliot requested permission to view your contact details</div>
+                </div>
+            </div>
+        </div>
+        <div class="column" data-position='17' data-id='18'>
+            <div class="ui fluid card">
+                <div class="content"><img src="images/home-74.png" class="right floated mini ui image">
+                    <div class="header">Your dream</div>
+                    <div class="meta">House of your dream</div>
+                    <div class="description">Elliot requested permission to view your contact details</div>
+                </div>
+            </div>
+        </div>
+        <div class="column" data-position='18' data-id='19'>
+            <div class="ui fluid card">
+                <div class="content"><img src="images/home-74.png" class="right floated mini ui image">
+                    <div class="header">Your dream</div>
+                    <div class="meta">House of your dream</div>
+                    <div class="description">Elliot requested permission to view your contact details</div>
+                </div>
+            </div>
+        </div>
+        <div class="column" data-position='19' data-id='20'>
+            <div class="ui fluid card">
+                <div class="content"><img src="images/home-74.png" class="right floated mini ui image">
+                    <div class="header">Your dream</div>
+                    <div class="meta">House of your dream</div>
+                    <div class="description">Elliot requested permission to view your contact details</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/interact.js"></script>
+<script src="js/lodash.js"></script>
+<script src="js/script.js"></script>
+<script>
+    sortable = new Sortable(document.querySelector("#sort1"));
+    sortable.success = function (results) {
+        console.log(results);
+    }
+</script>
+</body>
+</html>
